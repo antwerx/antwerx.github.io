@@ -6,3 +6,5 @@ theme: jekyll-theme-midnight
 
 gems:
   - jekyll-mentions
+
+permalink: /blog/:year/:month/:day/:title  

@@ -1,4 +1,6 @@
 name: Your New Jekyll Site
 theme: jekyll-theme-midnight
+title: steve's collection of stuff
+description: here be my snippets of knowledge
 #markdown: redcarpet
 rouge: true

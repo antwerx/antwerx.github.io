@@ -1,3 +1,4 @@
 name: Your New Jekyll Site
+theme: jekyll-theme-midnight
 #markdown: redcarpet
 rouge: true

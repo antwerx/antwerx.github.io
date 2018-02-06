@@ -5,6 +5,11 @@ This automatic page generator is the easiest way to create beautiful pages for a
 $ cd your_repo_root/repo_name
 $ git fetch origin
 $ git checkout gh-pages
+$ git status
+$ git diff
+$ git add .
+$ git commit -m "yippie"
+$ git push
 ```
 
 If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.

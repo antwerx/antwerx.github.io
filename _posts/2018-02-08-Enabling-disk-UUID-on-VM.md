@@ -10,5 +10,4 @@ You must set the disk.EnableUUID parameter for each VM to "TRUE". This step is n
  5. Select the Configuration Parameters... on right hand side.
  6. Check to see if the parameter disk.EnableUUID is set, if it is there then make sure it is set to TRUE.
     If the parameter is not there, select Add Row and add it.
-
- 7 . Power on the guest.
+  7. Power on the guest.

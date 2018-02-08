@@ -1,4 +1,4 @@
-#To enable disk UUID on a virtual machine
+# To enable disk UUID on a virtual machine
 
 You must set the disk.EnableUUID parameter for each VM to "TRUE". This step is necessary so that the VMDK always presents a consistent UUID to the VM, thus allowing the disk to be mounted properly. For each of the virtual machine nodes (VMs) that will be participating in the cluster, follow the steps below from the vSphere client:
 

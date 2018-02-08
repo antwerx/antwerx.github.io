@@ -1,22 +1,13 @@
 ### here be my collection of knowledge.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:
-
+I hope to collect bits of knowledge I have scattered around in various tools.
 ```
-$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
 $ git status
 $ git diff
 $ git add .
 $ git commit -m "yippie"
 $ git push
 ```
-
 ### Posts
----
-layout: default
-title: entries
----
 
 {% for post in site.posts %}
 ### [{{ post.title }}]({{ post.url }}) {{ post.date | date: "%Y-%m-%d"}} | {{ post.content | number_of_words }} words

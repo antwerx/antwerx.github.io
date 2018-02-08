@@ -17,13 +17,13 @@ $ git push
 layout: default
 title: entries
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+{% for post in site.posts %}
+### [{{ post.title }}]({{ post.url }}) {{ post.date | date: "%Y-%m-%d"}} | {{ post.content | number_of_words }} words
+
+{{ post.excerpt | strip_html | truncatewords: 50 }}
+
+{% endfor %}
 
 ### Authors and Contributors
 You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.

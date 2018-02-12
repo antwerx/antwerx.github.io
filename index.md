@@ -1,7 +1,3 @@
-Lorem ipsum dolor sit amet.
-
-[Click me](https://antwerx.github.io/){: .btn}
-
 ### here be my collection of knowledge.
 I hope to collect bits of knowledge I have scattered around in various tools.
 ```
